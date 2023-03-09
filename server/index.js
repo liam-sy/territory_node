@@ -67,7 +67,7 @@ app.get("/territories/update", async(req, res) => {
 //Server start affirmation
 
 
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log("server ready to go on 5000");
 });
 
