@@ -37,7 +37,6 @@ class Form extends Component {
 
         return (
             <div>
-                <RefreshTerrs/>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
                         <label form="usr">ID:</label>
