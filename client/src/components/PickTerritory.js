@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ListAdrs from './GetAddresses.js';
-import RefreshTerrs from './RefreshTerrList.js';
+//import RefreshTerrs from './RefreshTerrList.js';
 
 class Form extends Component {
     

@@ -13,4 +13,4 @@ const RefreshTerrs = () => {
     );
 }
 
-export default RefreshTerrs
+//export default RefreshTerrs
