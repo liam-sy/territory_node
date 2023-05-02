@@ -36,10 +36,10 @@ class Form extends Component {
         const { terr } = this.state
 
         return (
-            <div> 
+            <div>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
-                        <label form="usr">ID:</label>
+                        <label form="usr">Territory ID:</label>
                         <input type="number" className="form-control" id="usr" value={terr} onChange={this.handleTerrChange}/>
                     </div>
                     <button type="submit" className="btn btn-primary" >Submit</button>
