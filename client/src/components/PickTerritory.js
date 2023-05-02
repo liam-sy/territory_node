@@ -44,7 +44,7 @@ class Form extends Component {
                     </div>
                     <button type="submit" className="btn btn-primary" >Submit</button>
                 </form>
-                <ListAdrs propTerr={terr} propUp={this.state.up}/>
+                <ListAdrs propTerr={terr} propUp={this.state.up}/> 
             </div>
         )
     }
