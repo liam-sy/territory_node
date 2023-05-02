@@ -36,7 +36,7 @@ class Form extends Component {
         const { terr } = this.state
 
         return (
-            <div>
+            <div> 
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
                         <label form="usr">ID:</label>
