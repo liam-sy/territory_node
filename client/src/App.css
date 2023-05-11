@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* Use a light gray background and a sans-serif font */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Center the main container and give it some padding and margin */
+.main-container {
+  max-width: 800px;
+  margin: 20px auto; /* Add some margin to the top and bottom of the container */
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style the form elements with a white background and a blue border */
+.form-group {
+  margin: 20px auto 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #00a0d2;
+  border-radius: 5px;
+}
+
+/* Style the submit button with a blue background and white text */
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
   color: white;
+  background-color: #00a0d2;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Add some hover effects to the button */
+.btn-primary:hover {
+  background-color: #008fb3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary:focus {
+  outline: none;
+}
+
+/* Add some space between the button and the list */
+.btn-primary + .list-adrs {
+  margin-top: 20px;
+}
+
+#list-adrs-id {
+  margin-top: 20px;
+}
+
+/* Style the list elements with a white background and a blue border */
+.list-adrs {
+  list-style: none;
+  padding: 0;
+}
+
+.list-adrs li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #00a0d2;
+  border-radius: 5px;
 }
